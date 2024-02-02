@@ -13,7 +13,7 @@ public class ConnectionClass {
 		
 		Connection con = null;
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cuims","root","Pradeep@2002");
+		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cuims","root","Mysql@123");
 		System.out.println("Connection Established");
 		
 		System.out.println(con.getClass().getName());
