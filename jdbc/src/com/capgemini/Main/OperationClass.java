@@ -20,7 +20,7 @@ public class OperationClass {
 			String studentCourse = sc.next();
 			System.out.println("Enter student Batch:");
 			int studentBatch = sc.nextInt();
-			System.out.println("Enter student Batch:");
+			System.out.println("Enter student Column Unneccessary Field , Enter random integer:");
 			int studentCol = sc.nextInt();
 			if(con==null) {
 				con = conObject.getConnection();

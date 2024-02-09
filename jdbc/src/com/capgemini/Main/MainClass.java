@@ -12,7 +12,7 @@ public class MainClass {
 		OperationClass object = new OperationClass();
 		Scanner sc = new Scanner(System.in);
 		do {
-		System.out.println("Enter 1 for insert a record:");
+		System.out.println("Enter 1 for insert a record::");
 		System.out.println("Enter 2 for delete a record:");
 		System.out.println("Enter 3 for update a record:");
 		System.out.println("Enter 4 for display_one a record:");
